@@ -20,11 +20,9 @@ func longestPalindrome(s string) string {
 	var result string //the result to return
 	for i := 1; i <= length; i++ { //substring's len
 		for j := 0; j+i <= length; j++ { //kind of substring for every substring len
-			if isStrSymmetrical(string(b[j:j+i])) {
-				if i >= maxLen {
-					maxLen = i
-					result = string(b[j:j+i])
-				}
+			if isStrSymmetrical(string(b[j:j+i])) && i >= maxLen {
+				maxLen = i
+				result = string(b[j:j+i])
 			}
 		}
 	}
