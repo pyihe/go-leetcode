@@ -17,9 +17,6 @@ Question Description:
 Given a 32-bit signed integer, reverse digits of an integer.
 */
 func Reverse(x int) int {
-	if x > math.MaxInt32 || x <= math.MinInt32 {
-		return 0
-	}
 	xString := strconv.Itoa(x)
 	var byteData []byte
 	for i := len(xString) - 1; i >= 0; i-- {
@@ -32,6 +29,9 @@ func Reverse(x int) int {
 	n, err := strconv.Atoi(string(byteData))
 	if err != nil {
 		panic(err)
+	}
+	if n > math.MaxInt32 || n < math.MinInt32 {
+		return 0
 	}
 	return n
 }
