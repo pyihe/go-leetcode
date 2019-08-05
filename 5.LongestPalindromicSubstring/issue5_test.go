@@ -1,18 +1,17 @@
 package __LongestPalindromicSubstring
 
 import (
-	"testing"
 	"fmt"
+	"testing"
 )
 
 /*
-    @Create by GoLand
-    @Author: hong
-    @Time: 2018/7/24 18:09 
-    @File: issue5_test.go    
+   @Create by GoLand
+   @Author: hong
+   @Time: 2018/7/24 18:09
+   @File: issue5_test.go
 */
 
 func TestIsStrSymmetrical(t *testing.T) {
 	fmt.Println(longestPalindrome("abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababa"))
 }
-

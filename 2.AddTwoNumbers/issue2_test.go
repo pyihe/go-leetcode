@@ -1,15 +1,15 @@
 package __AddTwoNumbers
 
 import (
-	"testing"
 	"fmt"
+	"testing"
 )
 
 /*
-    @Create by GoLand
-    @Author: hong
-    @Time: 2018/7/19 18:11 
-    @File: issue2_test.go    
+   @Create by GoLand
+   @Author: hong
+   @Time: 2018/7/19 18:11
+   @File: issue2_test.go
 */
 
 func TestGetNumber(t *testing.T) {

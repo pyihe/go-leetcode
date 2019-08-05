@@ -1,15 +1,15 @@
 package __StringToInteger_Atoi
 
 import (
-	"testing"
 	"fmt"
+	"testing"
 )
 
 /*
-    @Create by GoLand
-    @Author: hong
-    @Time: 2018/8/7 17:33 
-    @File: issue8_test.go    
+   @Create by GoLand
+   @Author: hong
+   @Time: 2018/8/7 17:33
+   @File: issue8_test.go
 */
 
 func TestMyAtoi(t *testing.T) {

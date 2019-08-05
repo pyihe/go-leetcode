@@ -1,10 +1,10 @@
 package __ZigZagConversion
 
 /*
-    @Create by GoLand
-    @Author: hong
-    @Time: 2018/7/25 10:22 
-    @File: issue6.go    
+   @Create by GoLand
+   @Author: hong
+   @Time: 2018/7/25 10:22
+   @File: issue6.go
 */
 
 /*
@@ -67,7 +67,7 @@ func convert2(s string, numRows int) string {
 
 	global_iter := 0
 
-	for i:=0 ; i < numRows ; i++ {
+	for i := 0; i < numRows; i++ {
 		calc := i
 		iter := 0
 
@@ -84,10 +84,10 @@ func convert2(s string, numRows int) string {
 				if i != 0 {
 					iter++
 				}
-				val := 2 * ( numRows - i - 1 )
+				val := 2 * (numRows - i - 1)
 				calc += val
 			case 1:
-				if i != numRows - 1 {
+				if i != numRows-1 {
 					iter = 0
 				}
 				calc += 2 * i

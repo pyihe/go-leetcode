@@ -1,10 +1,10 @@
 package __NoRepeatLongestSubStr
 
 /*
-    @Create by GoLand
-    @Author: hong
-    @Time: 2018/7/20 14:13 
-    @File: issue3.go    
+   @Create by GoLand
+   @Author: hong
+   @Time: 2018/7/20 14:13
+   @File: issue3.go
 */
 
 /*

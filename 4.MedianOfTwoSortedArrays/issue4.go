@@ -1,15 +1,15 @@
 package __MedianOfTwoSortedArrays
 
 import (
-	"sort"
 	"fmt"
+	"sort"
 )
 
 /*
-    @Create by GoLand
-    @Author: hong
-    @Time: 2018/7/20 17:32 
-    @File: issue4.go    
+   @Create by GoLand
+   @Author: hong
+   @Time: 2018/7/20 17:32
+   @File: issue4.go
 */
 
 /*
@@ -49,17 +49,16 @@ func (s Ints) Less(i, j int) bool {
 	return s[i] < s[j]
 }
 
-
 /*leetcode go solution*/
 func findMedianSortedArrays2(a []int, b []int) float64 {
 	m := len(a)
 	n := len(b)
 
-	l := m+n
+	l := m + n
 
 	i, j, k := 0, 0, 0
 	lastTwo := [2]int{}
-	fmt.Println(i,j,k)
+	fmt.Println(i, j, k)
 	for k <= l/2 && i < m && j < n {
 		if a[i] < b[j] {
 			lastTwo[0], lastTwo[1] = lastTwo[1], a[i]
@@ -70,22 +69,22 @@ func findMedianSortedArrays2(a []int, b []int) float64 {
 		}
 		k++
 	}
-	fmt.Println(i,j,k)
+	fmt.Println(i, j, k)
 	for k <= l/2 && i < m {
 		lastTwo[0], lastTwo[1] = lastTwo[1], a[i]
 		i++
 		k++
 	}
-	fmt.Println(i,j,k)
+	fmt.Println(i, j, k)
 	for k <= l/2 && j < n {
 		lastTwo[0], lastTwo[1] = lastTwo[1], b[j]
 		k++
 		j++
 	}
 
-	fmt.Println(i,j,k)
+	fmt.Println(i, j, k)
 	if l%2 == 0 {
-		return float64(lastTwo[0]+lastTwo[1])/2.0
+		return float64(lastTwo[0]+lastTwo[1]) / 2.0
 	}
 
 	return float64(lastTwo[1])

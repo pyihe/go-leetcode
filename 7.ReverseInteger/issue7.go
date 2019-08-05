@@ -1,15 +1,15 @@
 package __ReverseInteger
 
 import (
-	"strconv"
 	"math"
+	"strconv"
 )
 
 /*
-    @Create by GoLand
-    @Author: hong
-    @Time: 2018/7/27 16:39 
-    @File: issue7.go    
+   @Create by GoLand
+   @Author: hong
+   @Time: 2018/7/27 16:39
+   @File: issue7.go
 */
 
 /*

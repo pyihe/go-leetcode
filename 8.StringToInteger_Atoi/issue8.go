@@ -2,15 +2,15 @@ package __StringToInteger_Atoi
 
 import (
 	"fmt"
-	"strconv"
 	"math"
+	"strconv"
 )
 
 /*
-    @Create by GoLand
-    @Author: hong
-    @Time: 2018/8/7 17:20 
-    @File: issue8.go    
+   @Create by GoLand
+   @Author: hong
+   @Time: 2018/8/7 17:20
+   @File: issue8.go
 */
 
 /*

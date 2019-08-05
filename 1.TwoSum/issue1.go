@@ -1,10 +1,10 @@
 package __TwoSum
 
 /*
-    @Create by GoLand
-    @Author: hong
-    @Time: 2018/7/19 17:51 
-    @File: issue1.go    
+   @Create by GoLand
+   @Author: hong
+   @Time: 2018/7/19 17:51
+   @File: issue1.go
 */
 
 /*
