@@ -1,13 +1,6 @@
 package __ZigZagConversion
 
 /*
-   @Create by GoLand
-   @Author: hong
-   @Time: 2018/7/25 10:22
-   @File: issue6.go
-*/
-
-/*
 Question Description:
 Z字形变换：从上向下，从左往右一次按照Z字形输出指定字符串
 */
