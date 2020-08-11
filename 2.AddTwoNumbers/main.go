@@ -1,10 +1,12 @@
-package __AddTwoNumbers
+package main
+
+import "fmt"
 
 /*
    @Create by GoLand
    @Author: hong
    @Time: 2018/7/19 17:51
-   @File: issue1.go
+   @File: main.go
 */
 
 /*
@@ -15,6 +17,51 @@ Add the two numbers and return it as a linked list.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 */
+
+func main() {
+	l3 := &ListNode{
+		Val:  3,
+		Next: nil,
+	}
+
+	l2 := &ListNode{
+		Val:  4,
+		Next: l3,
+	}
+
+	l1 := &ListNode{
+		Val:  2,
+		Next: l2,
+	}
+
+	l4 := &ListNode{
+		Val:  4,
+		Next: nil,
+	}
+	l5 := &ListNode{
+		Val:  6,
+		Next: l4,
+	}
+	l6 := &ListNode{
+		Val:  5,
+		Next: l5,
+	}
+	l7 := &ListNode{
+		Val:  9,
+		Next: l6,
+	}
+
+	result := addTwoNumbers(l1, l7)
+	fmt.Println(fmt.Sprintf("result = %+v", *result))
+
+label:
+	if result.Next != nil {
+		result = result.Next
+		fmt.Println(fmt.Sprintf("%+v", *result))
+		goto label
+	}
+}
+
 
 //Definition for singly-linked list.
 type ListNode struct {

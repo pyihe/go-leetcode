@@ -1,6 +1,7 @@
-package __ReverseInteger
+package main
 
 import (
+	"fmt"
 	"math"
 	"strconv"
 )
@@ -9,13 +10,18 @@ import (
    @Create by GoLand
    @Author: hong
    @Time: 2018/7/27 16:39
-   @File: issue7.go
+   @File: main.go
 */
 
 /*
 Question Description:
 Given a 32-bit signed integer, reverse digits of an integer.
 */
+
+func main() {
+	fmt.Println(Reverse(1534236469))
+}
+
 func Reverse(x int) int {
 	xString := strconv.Itoa(x)
 	var byteData []byte

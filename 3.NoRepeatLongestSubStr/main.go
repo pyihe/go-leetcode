@@ -1,16 +1,22 @@
-package __NoRepeatLongestSubStr
+package main
+
+import "fmt"
 
 /*
    @Create by GoLand
    @Author: hong
    @Time: 2018/7/20 14:13
-   @File: issue3.go
+   @File: main.go
 */
 
 /*
 Question Description:
 Given a string, find the length of the longest substring without repeating characters.
 */
+
+func main() {
+	fmt.Println(lengthOfLongestSubstring("abcdef"))
+}
 
 //my solution
 func lengthOfLongestSubstring(s string) int {

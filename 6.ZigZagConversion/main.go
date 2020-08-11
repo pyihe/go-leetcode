@@ -1,9 +1,16 @@
-package __ZigZagConversion
+package main
+
+import "fmt"
 
 /*
 Question Description:
 Z字形变换：从上向下，从左往右一次按照Z字形输出指定字符串
 */
+
+func main() {
+	fmt.Println(convert("AB", 2))
+}
+
 func convert(s string, numRows int) string {
 	if numRows <= 1 || len(s) <= 1 {
 		return s
