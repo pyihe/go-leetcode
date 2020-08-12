@@ -18,3 +18,7 @@
 |15|[350](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)|[两个数组的交集I(II)](https://github.com/pyihe/go-leetcode/blob/master/15.%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84/main.go)|
 |16|[189](https://leetcode-cn.com/problems/rotate-array/)|[旋转数组](https://github.com/pyihe/go-leetcode/blob/master/16.%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86/main.go)|
 |17|[206](https://leetcode-cn.com/problems/reverse-linked-list/)|[反转链表](https://github.com/pyihe/go-leetcode/blob/master/17.%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/main.go)|
+|18|[27](https://leetcode-cn.com/problems/remove-element/)|[移除元素](https://github.com/pyihe/go-leetcode/blob/master/18.%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0/main.go)|
+|19|[26](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|[删除排序数组中的重复项](https://github.com/pyihe/go-leetcode/blob/master/19.%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9/main.go)|
+|20|[283](https://leetcode-cn.com/problems/move-zeroes/)|[移动零](https://github.com/pyihe/go-leetcode/blob/master/20.%E7%A7%BB%E5%8A%A8%E9%9B%B6/main.go)|
+|21|[66](https://leetcode-cn.com/problems/plus-one/)|[加一](https://github.com/pyihe/go-leetcode/blob/master/21.%E5%8A%A0%E4%B8%80/main.go)|
