@@ -22,3 +22,6 @@
 |19|[26](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|[删除排序数组中的重复项](https://github.com/pyihe/go-leetcode/blob/master/19.%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9/main.go)|
 |20|[283](https://leetcode-cn.com/problems/move-zeroes/)|[移动零](https://github.com/pyihe/go-leetcode/blob/master/20.%E7%A7%BB%E5%8A%A8%E9%9B%B6/main.go)|
 |21|[66](https://leetcode-cn.com/problems/plus-one/)|[加一](https://github.com/pyihe/go-leetcode/blob/master/21.%E5%8A%A0%E4%B8%80/main.go)|
+|22|[15](https://leetcode-cn.com/problems/3sum/)|[三数之和](https://github.com/pyihe/go-leetcode/blob/master/22.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/main.go)|
+|23|[16](https://leetcode-cn.com/problems/3sum-closest/)|[最接近的三数之和](https://github.com/pyihe/go-leetcode/blob/master/23.%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/main.go)|
+|24|[18](https://leetcode-cn.com/problems/4sum/)|[四数之和](https://github.com/pyihe/go-leetcode/blob/master/24.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/main.go)|
