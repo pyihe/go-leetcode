@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 /*
 Question Description:
@@ -95,4 +98,22 @@ func convert2(s string, numRows int) string {
 		}
 	}
 	return string(result)
+}
+
+//good
+func convertZ(s string, numRows int) string {
+	if len(s) <= 1 || numRows == 1 {
+		return s
+	}
+	var arr = make([]string, numRows)
+	pos := 0
+	turnTag := -1
+	for _, v := range s {
+		arr[pos] += string(v)
+		if pos == 0 || pos == numRows-1 {
+			turnTag = -turnTag
+		}
+		pos += turnTag
+	}
+	return strings.Join(arr, "")
 }
