@@ -25,3 +25,4 @@
 |22|[15](https://leetcode-cn.com/problems/3sum/)|[三数之和](https://github.com/pyihe/go-leetcode/blob/master/22.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/main.go)|
 |23|[16](https://leetcode-cn.com/problems/3sum-closest/)|[最接近的三数之和](https://github.com/pyihe/go-leetcode/blob/master/23.%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/main.go)|
 |24|[18](https://leetcode-cn.com/problems/4sum/)|[四数之和](https://github.com/pyihe/go-leetcode/blob/master/24.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/main.go)|
+|25|[19](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|[删除链表倒数第N个节点](https://github.com/pyihe/go-leetcode/blob/master/25.%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9/main.go)|
