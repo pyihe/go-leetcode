@@ -26,3 +26,5 @@
 |23|[16](https://leetcode-cn.com/problems/3sum-closest/)|[最接近的三数之和](https://github.com/pyihe/go-leetcode/blob/master/23.%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/main.go)|
 |24|[18](https://leetcode-cn.com/problems/4sum/)|[四数之和](https://github.com/pyihe/go-leetcode/blob/master/24.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/main.go)|
 |25|[19](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|[删除链表倒数第N个节点](https://github.com/pyihe/go-leetcode/blob/master/25.%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9/main.go)|
+|26|[141](https://leetcode-cn.com/problems/linked-list-cycle/)|[环形链表](https://github.com/pyihe/go-leetcode/blob/master/26.%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8/main.go)|
+|27|[21](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[合并两个有序链表](https://github.com/pyihe/go-leetcode/blob/master/27.%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8/main.go)|
