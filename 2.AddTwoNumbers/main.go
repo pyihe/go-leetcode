@@ -19,49 +19,19 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 */
 
 func main() {
-	l3 := &ListNode{
-		Val:  3,
-		Next: nil,
-	}
-
-	l2 := &ListNode{
-		Val:  4,
-		Next: l3,
-	}
-
 	l1 := &ListNode{
-		Val:  2,
-		Next: l2,
+		Val: 1,
+		Next: &ListNode{
+			Val:  8,
+			Next: nil,
+		},
 	}
-
-	l4 := &ListNode{
-		Val:  4,
-		Next: nil,
+	l2 := &ListNode{
+		Val: 0,
 	}
-	l5 := &ListNode{
-		Val:  6,
-		Next: l4,
-	}
-	l6 := &ListNode{
-		Val:  5,
-		Next: l5,
-	}
-	l7 := &ListNode{
-		Val:  9,
-		Next: l6,
-	}
-
-	result := addTwoNumbers(l1, l7)
+	result := addTwoNumbers3(l1, l2)
 	fmt.Println(fmt.Sprintf("result = %+v", *result))
-
-label:
-	if result.Next != nil {
-		result = result.Next
-		fmt.Println(fmt.Sprintf("%+v", *result))
-		goto label
-	}
 }
-
 
 //Definition for singly-linked list.
 type ListNode struct {
@@ -164,4 +134,84 @@ func helper(l1 *ListNode, l2 *ListNode, carry int) *ListNode {
 
 func addTwoNumbers2(l1 *ListNode, l2 *ListNode) *ListNode {
 	return helper(l1, l2, 0)
+}
+
+func addTwoNumbers3(l1 *ListNode, l2 *ListNode) *ListNode {
+	guard := &ListNode{}
+	head := guard
+
+	var carry int
+	for l1 != nil || l2 != nil {
+		var sum int
+		if l1 == nil {
+			sum = l2.Val + carry
+			l2.Val = sum % 10
+			carry = sum / 10
+			head.Next = l2
+			head = head.Next
+			l2 = l2.Next
+			continue
+		}
+		if l2 == nil {
+			sum = l1.Val + carry
+			l1.Val = sum % 10
+			carry = sum / 10
+			head.Next = l1
+			head = head.Next
+			l1 = l1.Next
+			continue
+		}
+		sum = l1.Val + l2.Val + carry
+		l1.Val = sum % 10
+		carry = sum / 10
+		head.Next = l1
+		head = head.Next
+		l1 = l1.Next
+		l2 = l2.Next
+	}
+
+	if carry > 0 {
+		temp := &ListNode{
+			Val: carry,
+		}
+		head.Next = temp
+	}
+
+	//for l1 != nil && l2 != nil {
+	//	sum := l1.Val + l2.Val + carry
+	//	l1.Val = sum % 10
+	//	carry = sum / 10
+	//	head.Next = l1
+	//	head = head.Next
+	//	l1 = l1.Next
+	//	l2 = l2.Next
+	//}
+	//if l1 != nil {
+	//	for l1 != nil {
+	//		sum := l1.Val + carry
+	//		l1.Val = sum % 10
+	//		carry = sum / 10
+	//		head.Next = l1
+	//		head = head.Next
+	//		l1 = l1.Next
+	//	}
+	//}
+	//if l2 != nil {
+	//	for l2 != nil {
+	//		sum := l2.Val + carry
+	//		l2.Val = sum % 10
+	//		carry = sum / 10
+	//		head.Next = l2
+	//		head = head.Next
+	//		l2 = l2.Next
+	//	}
+	//}
+	//if carry > 0 {
+	//	temp := &ListNode{
+	//		Val: carry,
+	//	}
+	//	head.Next = temp
+	//}
+
+	return guard.Next
 }
