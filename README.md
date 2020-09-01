@@ -28,3 +28,4 @@
 |25|[19](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|[删除链表倒数第N个节点](https://github.com/pyihe/go-leetcode/blob/master/25.%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9/main.go)|
 |26|[141](https://leetcode-cn.com/problems/linked-list-cycle/)|[环形链表](https://github.com/pyihe/go-leetcode/blob/master/26.%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8/main.go)|
 |27|[21](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[合并两个有序链表](https://github.com/pyihe/go-leetcode/blob/master/27.%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8/main.go)|
+|28|[70](https://leetcode-cn.com/problems/climbing-stairs/)|[爬楼梯](https://github.com/pyihe/go-leetcode/blob/master/28.%E7%88%AC%E6%A5%BC%E6%A2%AF/main.go)|
