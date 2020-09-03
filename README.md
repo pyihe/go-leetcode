@@ -29,3 +29,9 @@
 |26|[141](https://leetcode-cn.com/problems/linked-list-cycle/)|[环形链表](https://github.com/pyihe/go-leetcode/blob/master/26.%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8/main.go)|
 |27|[21](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[合并两个有序链表](https://github.com/pyihe/go-leetcode/blob/master/27.%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8/main.go)|
 |28|[70](https://leetcode-cn.com/problems/climbing-stairs/)|[爬楼梯](https://github.com/pyihe/go-leetcode/blob/master/28.%E7%88%AC%E6%A5%BC%E6%A2%AF/main.go)|
+|29|[344](https://leetcode-cn.com/problems/reverse-string/)|[反转字符串](https://github.com/pyihe/go-leetcode/blob/master/29.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2/main.go)|
+|30|[387](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|[字符串中第一个唯一字符](https://github.com/pyihe/go-leetcode/blob/master/30.%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6/main.go)|
+|31|[28](https://leetcode-cn.com/problems/implement-strstr/)|[实现strStr()](https://github.com/pyihe/go-leetcode/blob/master/31.%E5%AE%9E%E7%8E%B0strStr()/main.go)|
+|32|[125](https://leetcode-cn.com/problems/valid-palindrome/)|[验证回纹串](https://github.com/pyihe/go-leetcode/blob/master/32.%E9%AA%8C%E8%AF%81%E5%9B%9E%E7%BA%B9%E4%B8%B2/main.go)|
+|33|[796](https://leetcode-cn.com/problems/rotate-string/)|[旋转字符串](https://github.com/pyihe/go-leetcode/blob/master/33.%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2/main.go)|
+|34|[58](https://leetcode-cn.com/problems/length-of-last-word/)|[最后一个单词长度](https://github.com/pyihe/go-leetcode/blob/master/34.%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%8D%95%E8%AF%8D%E7%9A%84%E9%95%BF%E5%BA%A6/main.go)|
