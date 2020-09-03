@@ -59,7 +59,7 @@ func cal(n int) int {
 	return cal(n-1) + cal(n-2)
 }
 
-//分支法
+//分治法
 func climbStairs2(n int) int {
 	if n < 1 {
 		return 0
