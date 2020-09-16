@@ -37,3 +37,5 @@
 |34|[58](https://leetcode-cn.com/problems/length-of-last-word/)|[最后一个单词长度](https://github.com/pyihe/go-leetcode/blob/master/34.%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%8D%95%E8%AF%8D%E7%9A%84%E9%95%BF%E5%BA%A6/main.go)|
 |35|[104](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)|[二叉树的最大深度](https://github.com/pyihe/go-leetcode/blob/master/35.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6/main.go)|
 |36|[102](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)|[二叉树的层序遍历](https://github.com/pyihe/go-leetcode/blob/master/36.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86/main.go)|
+|37|[98](https://leetcode-cn.com/problems/validate-binary-search-tree/)|[验证二叉搜索树](https://github.com/pyihe/go-leetcode/blob/master/37.%E9%AA%8C%E8%AF%81%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/main.go)|
+|38|[208](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)|[实现 Trie (前缀树)](https://github.com/pyihe/go-leetcode/blob/master/38.%E5%AE%9E%E7%8E%B0%E5%89%8D%E7%BC%80%E6%A0%91/main.go)|
