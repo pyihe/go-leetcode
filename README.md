@@ -39,3 +39,8 @@
 |36|[102](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)|[二叉树的层序遍历](https://github.com/pyihe/go-leetcode/blob/master/36.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86/main.go)|
 |37|[98](https://leetcode-cn.com/problems/validate-binary-search-tree/)|[验证二叉搜索树](https://github.com/pyihe/go-leetcode/blob/master/37.%E9%AA%8C%E8%AF%81%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/main.go)|
 |38|[208](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)|[实现 Trie (前缀树)](https://github.com/pyihe/go-leetcode/blob/master/38.%E5%AE%9E%E7%8E%B0%E5%89%8D%E7%BC%80%E6%A0%91/main.go)|
+|39|[700](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)|[二叉树中的搜索](https://github.com/pyihe/go-leetcode/blob/master/39.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%90%9C%E7%B4%A2/main.go)|
+|40|[450](https://leetcode-cn.com/problems/delete-node-in-a-bst/)|[删除二叉搜索树中的节点](https://github.com/pyihe/go-leetcode/blob/master/40.%E5%88%A0%E9%99%A4%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9/main.go)|
+|41|[110](https://leetcode-cn.com/problems/balanced-binary-tree/)|[平衡二叉树](https://github.com/pyihe/go-leetcode/blob/master/41.%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91/main.go)|
+|42|[222](https://leetcode-cn.com/problems/count-complete-tree-nodes/)|[完全二叉树的节点个数](https://github.com/pyihe/go-leetcode/blob/master/42.%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%8A%82%E7%82%B9%E4%B8%AA%E6%95%B0/main.go)|
+|43|[814](https://leetcode-cn.com/problems/binary-tree-pruning/)|[二叉树剪枝](https://github.com/pyihe/go-leetcode/blob/master/43.%E4%BA%8C%E5%8F%89%E6%A0%91%E5%89%AA%E6%9E%9D/main.go)|
