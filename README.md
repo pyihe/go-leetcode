@@ -22,6 +22,7 @@
     * [移动零](easy/%E7%A7%BB%E5%8A%A8%E9%9B%B6)
     * [移除元素](easy/%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0)
     * [验证回纹串](easy/%E9%AA%8C%E8%AF%81%E5%9B%9E%E7%BA%B9%E4%B8%B2)
+    * [2278 字母在字符串中的百分比](easy/2278%20%E5%AD%97%E6%AF%8D%E5%9C%A8%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%99%BE%E5%88%86%E6%AF%94)
 2. Medium
     * [AddTwoNumbers](medium/AddTwoNumbers)
     * [LongestPalindromicSubstring](medium/LongestPalindromicSubstring)
@@ -42,5 +43,7 @@
     * [最接近的三数之和](medium/%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C)
     * [最长回文子串](medium/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2)
     * [验证二叉搜索树](medium/%E9%AA%8C%E8%AF%81%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91)
+    * [2708-Maximum_Strength_of_a_Group](medium/2708-Maximum_Strength_of_a_Group)
+    * [451-Sort_Characters_By_Frequency](medium/451-Sort_Characters_By_Frequency)
 3. Hard
     * [MedianOfTwoSortedArrays](hard/MedianOfTwoSortedArrays)

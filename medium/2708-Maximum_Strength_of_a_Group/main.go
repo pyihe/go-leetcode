@@ -2,48 +2,43 @@ package main
 
 import (
 	"fmt"
-	"slices"
+	"math"
 )
 
 func maxStrength(nums []int) int64 {
+	if len(nums) == 1 {
+		return int64(nums[0])
+	}
 	var (
-		zero    int
-		pos     int
-		r       = 1
-		negList = make([]int, 0, len(nums))
+		zeros  int
+		pos    int
+		negs   int
+		maxNeg = math.MinInt
+		r      = 1
 	)
 	for _, n := range nums {
 		switch {
 		case n == 0:
-			zero += 1
+			zeros += 1
 		case n > 0:
 			pos += 1
 		default:
-			negList = append(negList, n)
+			negs += 1
+			if n > maxNeg {
+				maxNeg = n
+			}
 		}
 		if n != 0 {
 			r *= n
 		}
 	}
-	if len(nums) == 1 {
-		return int64(nums[0])
-	}
-	if pos == 0 && len(negList) <= 1 {
+	if pos == 0 && negs <= 1 {
 		return 0
 	}
 	if r > 0 {
 		return int64(r)
 	}
-	slices.SortFunc(negList, func(a, b int) int {
-		if a < b {
-			return 1
-		}
-		if a > b {
-			return -1
-		}
-		return 0
-	})
-	return int64(r / negList[0])
+	return int64(r / maxNeg)
 }
 
 func main() {
