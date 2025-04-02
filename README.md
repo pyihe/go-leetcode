@@ -46,5 +46,7 @@
     * [验证二叉搜索树](medium/%E9%AA%8C%E8%AF%81%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91)
     * [2708-Maximum_Strength_of_a_Group](medium/2708-Maximum_Strength_of_a_Group)
     * [451-Sort_Characters_By_Frequency](medium/451-Sort_Characters_By_Frequency)
+    * [371 两整数之和](medium/371%20%E4%B8%A4%E6%95%B4%E6%95%B0%E4%B9%8B%E5%92%8C)
+    * [1070 产品销售分析 III](medium/1070%20%E4%BA%A7%E5%93%81%E9%94%80%E5%94%AE%E5%88%86%E6%9E%90%20III)
 3. Hard
     * [MedianOfTwoSortedArrays](hard/MedianOfTwoSortedArrays)
