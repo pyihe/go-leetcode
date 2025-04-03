@@ -49,5 +49,6 @@
     * [451-Sort_Characters_By_Frequency](medium/451-Sort_Characters_By_Frequency)
     * [371 两整数之和](medium/371%20%E4%B8%A4%E6%95%B4%E6%95%B0%E4%B9%8B%E5%92%8C)
     * [1070 产品销售分析 III](medium/1070%20%E4%BA%A7%E5%93%81%E9%94%80%E5%94%AE%E5%88%86%E6%9E%90%20III)
+    * [3325 字符至少出现K次的子字符串I](medium/3325%20%E5%AD%97%E7%AC%A6%E8%87%B3%E5%B0%91%E5%87%BA%E7%8E%B0K%E6%AC%A1%E7%9A%84%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2I)
 3. Hard
     * [MedianOfTwoSortedArrays](hard/MedianOfTwoSortedArrays)
