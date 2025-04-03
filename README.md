@@ -24,6 +24,7 @@
     * [验证回纹串](easy/%E9%AA%8C%E8%AF%81%E5%9B%9E%E7%BA%B9%E4%B8%B2)
     * [2278 字母在字符串中的百分比](easy/2278%20%E5%AD%97%E6%AF%8D%E5%9C%A8%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%99%BE%E5%88%86%E6%AF%94)
     * [1556 千位分隔数](easy/1556%20%E5%8D%83%E4%BD%8D%E5%88%86%E9%9A%94%E6%95%B0)
+    * [2011 执行操作后的变量值](easy/2011%20%E6%89%A7%E8%A1%8C%E6%93%8D%E4%BD%9C%E5%90%8E%E7%9A%84%E5%8F%98%E9%87%8F%E5%80%BC)
 2. Medium
     * [AddTwoNumbers](medium/AddTwoNumbers)
     * [LongestPalindromicSubstring](medium/LongestPalindromicSubstring)
